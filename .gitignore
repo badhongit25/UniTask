@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production build
+# (We can keep dist if deploying or let host build)
+frontend/dist/
+
+# Temp files
+*.tmp*
+*.log
+.env
+.env.local
+
+# OS files
+Thumbs.db
+.DS_Store

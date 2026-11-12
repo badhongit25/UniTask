@@ -1,0 +1,14 @@
+{
+  "name": "unitask",
+  "version": "1.0.0",
+  "description": "Smart University Task, Assignment, Presentation & Quiz Deadline Tracker",
+  "scripts": {
+    "server": "node backend/server.js",
+    "client": "cd frontend && npm run dev",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run server\" \"npm run client\"",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

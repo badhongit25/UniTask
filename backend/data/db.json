@@ -1,0 +1,381 @@
+{
+  "users": [
+    {
+      "id": "55f701e1-4749-42bd-b771-7c5d685ac343",
+      "name": "Test Student Updated",
+      "email": "test@student.du.ac.bd",
+      "password": "$2b$10$meMEA9aVGwOlj5AzTibr6uicrbne2/IOAKrapN8XlDI.bf44x2R2G",
+      "university": "Dhaka University (Curzon)",
+      "department": "Computer Science & Engineering",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "bio": "Updated bio for semester final!",
+      "createdAt": "2026-11-12T17:59:20.982Z"
+    },
+    {
+      "id": "13c9b691-fdd8-4f14-a89a-90598031902e",
+      "name": "Second Student",
+      "email": "second@student.du.ac.bd",
+      "password": "$2b$10$sizrsK/B.zxF7xm4pTbtJ.IVdly9vuXJOYEs13jlv.sobwVd8WCnC",
+      "university": "BUET",
+      "department": "EEE",
+      "avatarUrl": "",
+      "bio": "Ready to ace this semester! 🚀",
+      "createdAt": "2026-11-12T17:59:46.197Z"
+    },
+    {
+      "id": "bd89c349-6fa9-4988-b411-67e9e7a7bfe7",
+      "name": "Shakil Ahmed",
+      "email": "demo@unitask.edu",
+      "password": "$2b$10$01jZ1TXLpsQggvUy6d3b2e4JwG7ZHG5nBZ3a.L0x8y.eFNNzlS7V6",
+      "university": "Dhaka University",
+      "department": "CSE",
+      "avatarUrl": "",
+      "bio": "Ready to ace this semester! 🚀",
+      "createdAt": "2026-11-12T18:03:47.382Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1baf7181-e207-4716-a20e-9ba6c7afb5d4",
+      "userId": "13c9b691-fdd8-4f14-a89a-90598031902e",
+      "title": "BUET EEE Circuit Analysis Project",
+      "description": "",
+      "startDate": "2026-11-12T17:59:46.227Z",
+      "deadline": "2026-11-17T23:59:46.2142559+06:00",
+      "priority": "urgent",
+      "category": "presentation",
+      "status": "pending",
+      "reminder": "both",
+      "recurring": "none",
+      "subtasks": [],
+      "notes": "",
+      "completedAt": null,
+      "createdAt": "2026-11-12T17:59:46.227Z",
+      "updatedAt": "2026-11-12T17:59:46.227Z"
+    },
+    {
+      "id": "d9665352-8ff8-46c8-b02c-8d935bae3fbe",
+      "userId": "55f701e1-4749-42bd-b771-7c5d685ac343",
+      "title": "Submit Data Structures Assignment 1",
+      "description": "Complete Trees and Graph implementation with complexity analysis report.",
+      "startDate": "2026-11-12T17:59:20.982Z",
+      "deadline": "2026-11-14T17:59:20.982Z",
+      "priority": "high",
+      "category": "assignment",
+      "status": "pending",
+      "reminder": "both",
+      "recurring": "none",
+      "subtasks": [
+        {
+          "id": "962f0c48-9125-4a31-ac10-73cefcf5d536",
+          "title": "Binary Search Tree code",
+          "completed": true
+        },
+        {
+          "id": "1c7bb3c5-1179-498a-a22a-c7e007402ec2",
+          "title": "Dijkstra shortest path algorithm",
+          "completed": false
+        },
+        {
+          "id": "a3e0b529-5598-4617-9c37-6e38930ce8f7",
+          "title": "Generate PDF report and zip source files",
+          "completed": false
+        }
+      ],
+      "notes": "Instructor emphasized clean variable names and commented code. Due 11:59 PM.",
+      "completedAt": null,
+      "createdAt": "2026-11-12T17:59:20.982Z",
+      "updatedAt": "2026-11-12T17:59:20.982Z"
+    },
+    {
+      "id": "4b682360-458d-4eaa-b996-a27f2745c1d7",
+      "userId": "55f701e1-4749-42bd-b771-7c5d685ac343",
+      "title": "Database Management Systems Quiz 2",
+      "description": "Syllabus: SQL Joins, Normalization (1NF, 2NF, 3NF, BCNF), and Transaction ACID properties.",
+      "startDate": "2026-11-12T17:59:20.982Z",
+      "deadline": "2026-11-16T17:59:20.982Z",
+      "priority": "urgent",
+      "category": "quiz",
+      "status": "in_progress",
+      "reminder": "both",
+      "recurring": "none",
+      "subtasks": [
+        {
+          "id": "38655271-b2da-4c89-9cb6-1c59cff276c8",
+          "title": "Review chapter 5 & 6 lecture slides",
+          "completed": true
+        },
+        {
+          "id": "f84de692-dcf2-4b6d-93dc-a91b26d33a6e",
+          "title": "Solve previous year mid/quiz questions",
+          "completed": false
+        }
+      ],
+      "notes": "Room 402 at 10:00 AM. Bring scientific calculator and student ID.",
+      "completedAt": null,
+      "createdAt": "2026-11-12T17:59:20.982Z",
+      "updatedAt": "2026-11-12T17:59:20.982Z"
+    },
+    {
+      "id": "3be9ae34-8198-4c83-9581-829f157a83e6",
+      "userId": "55f701e1-4749-42bd-b771-7c5d685ac343",
+      "title": "Software Engineering Project Presentation",
+      "description": "Prepare 10-minute slide deck with live demo of the web app architecture.",
+      "startDate": "2026-11-12T17:59:20.982Z",
+      "deadline": "2026-11-18T17:59:20.982Z",
+      "priority": "medium",
+      "category": "presentation",
+      "status": "pending",
+      "reminder": "1_day",
+      "recurring": "none",
+      "subtasks": [
+        {
+          "id": "8020f002-e72d-4d51-8ff6-86fedae9ece8",
+          "title": "Design slides in Google Slides",
+          "completed": false
+        },
+        {
+          "id": "9232a235-8e8a-4e82-aa99-9f11da810990",
+          "title": "Rehearse speech with team members",
+          "completed": false
+        }
+      ],
+      "notes": "Each member speaks for 2.5 minutes. Dress code: Semi-formal.",
+      "completedAt": null,
+      "createdAt": "2026-11-12T17:59:20.983Z",
+      "updatedAt": "2026-11-12T17:59:20.983Z"
+    },
+    {
+      "id": "76fa3890-5870-4e4e-b9e7-650a2117c377",
+      "userId": "13c9b691-fdd8-4f14-a89a-90598031902e",
+      "title": "Submit Data Structures Assignment 1",
+      "description": "Complete Trees and Graph implementation with complexity analysis report.",
+      "startDate": "2026-11-12T17:59:46.197Z",
+      "deadline": "2026-11-14T17:59:46.197Z",
+      "priority": "high",
+      "category": "assignment",
+      "status": "pending",
+      "reminder": "both",
+      "recurring": "none",
+      "subtasks": [
+        {
+          "id": "1ac2ae82-689b-467a-9c29-7113d0154ed3",
+          "title": "Binary Search Tree code",
+          "completed": true
+        },
+        {
+          "id": "4c851253-92b8-456d-ba1f-d978f84c6fce",
+          "title": "Dijkstra shortest path algorithm",
+          "completed": false
+        },
+        {
+          "id": "d29fe739-92a1-4742-b332-809736fe4f8f",
+          "title": "Generate PDF report and zip source files",
+          "completed": false
+        }
+      ],
+      "notes": "Instructor emphasized clean variable names and commented code. Due 11:59 PM.",
+      "completedAt": null,
+      "createdAt": "2026-11-12T17:59:46.197Z",
+      "updatedAt": "2026-11-12T17:59:46.197Z"
+    },
+    {
+      "id": "cabde525-5f7f-4af1-8beb-240d09963e13",
+      "userId": "13c9b691-fdd8-4f14-a89a-90598031902e",
+      "title": "Database Management Systems Quiz 2",
+      "description": "Syllabus: SQL Joins, Normalization (1NF, 2NF, 3NF, BCNF), and Transaction ACID properties.",
+      "startDate": "2026-11-12T17:59:46.197Z",
+      "deadline": "2026-11-16T17:59:46.197Z",
+      "priority": "urgent",
+      "category": "quiz",
+      "status": "in_progress",
+      "reminder": "both",
+      "recurring": "none",
+      "subtasks": [
+        {
+          "id": "7c5ff2c2-54ba-492e-bff2-d019172b1dae",
+          "title": "Review chapter 5 & 6 lecture slides",
+          "completed": true
+        },
+        {
+          "id": "0857f4d0-3f7b-43bb-8094-c3d1dfc9fa0e",
+          "title": "Solve previous year mid/quiz questions",
+          "completed": false
+        }
+      ],
+      "notes": "Room 402 at 10:00 AM. Bring scientific calculator and student ID.",
+      "completedAt": null,
+      "createdAt": "2026-11-12T17:59:46.197Z",
+      "updatedAt": "2026-11-12T17:59:46.197Z"
+    },
+    {
+      "id": "e49bc631-8c67-4c47-9194-b6709a19942b",
+      "userId": "13c9b691-fdd8-4f14-a89a-90598031902e",
+      "title": "Software Engineering Project Presentation",
+      "description": "Prepare 10-minute slide deck with live demo of the web app architecture.",
+      "startDate": "2026-11-12T17:59:46.197Z",
+      "deadline": "2026-11-18T17:59:46.197Z",
+      "priority": "medium",
+      "category": "presentation",
+      "status": "pending",
+      "reminder": "1_day",
+      "recurring": "none",
+      "subtasks": [
+        {
+          "id": "9d3c9d91-5b40-46fb-8a10-e0b82e8fcd62",
+          "title": "Design slides in Google Slides",
+          "completed": false
+        },
+        {
+          "id": "d58cb657-4eb3-464b-92f2-6e0b7f6abd96",
+          "title": "Rehearse speech with team members",
+          "completed": false
+        }
+      ],
+      "notes": "Each member speaks for 2.5 minutes. Dress code: Semi-formal.",
+      "completedAt": null,
+      "createdAt": "2026-11-12T17:59:46.197Z",
+      "updatedAt": "2026-11-12T17:59:46.197Z"
+    },
+    {
+      "id": "03fda569-ef91-4769-884f-0e4e63f70c6c",
+      "userId": "bd89c349-6fa9-4988-b411-67e9e7a7bfe7",
+      "title": "Submit Data Structures Assignment 1",
+      "description": "Complete Trees and Graph implementation with complexity analysis report.",
+      "startDate": "2026-11-12T18:03:47.382Z",
+      "deadline": "2026-11-14T18:03:47.382Z",
+      "priority": "high",
+      "category": "assignment",
+      "status": "pending",
+      "reminder": "both",
+      "recurring": "none",
+      "subtasks": [
+        {
+          "id": "17d8f0db-a0b6-4ed6-9851-1a1d9b690174",
+          "title": "Binary Search Tree code",
+          "completed": true
+        },
+        {
+          "id": "c2d5d713-dfb7-4b04-9880-a4af915c2cf9",
+          "title": "Dijkstra shortest path algorithm",
+          "completed": false
+        },
+        {
+          "id": "b564ec25-906d-4d34-b3af-67b106e7832e",
+          "title": "Generate PDF report and zip source files",
+          "completed": false
+        }
+      ],
+      "notes": "Instructor emphasized clean variable names and commented code. Due 11:59 PM.",
+      "completedAt": null,
+      "createdAt": "2026-11-12T18:03:47.382Z",
+      "updatedAt": "2026-11-12T18:03:47.382Z"
+    },
+    {
+      "id": "3dda90a6-e258-4110-9c7b-846dfc8a7be7",
+      "userId": "bd89c349-6fa9-4988-b411-67e9e7a7bfe7",
+      "title": "Database Management Systems Quiz 2",
+      "description": "Syllabus: SQL Joins, Normalization (1NF, 2NF, 3NF, BCNF), and Transaction ACID properties.",
+      "startDate": "2026-11-12T18:03:47.382Z",
+      "deadline": "2026-11-16T18:03:47.382Z",
+      "priority": "urgent",
+      "category": "quiz",
+      "status": "in_progress",
+      "reminder": "both",
+      "recurring": "none",
+      "subtasks": [
+        {
+          "id": "7a4e8b87-f660-4a71-a346-c9204489bd06",
+          "title": "Review chapter 5 & 6 lecture slides",
+          "completed": true
+        },
+        {
+          "id": "ae6632c1-2557-4e26-b4d1-021ac9412eb3",
+          "title": "Solve previous year mid/quiz questions",
+          "completed": false
+        }
+      ],
+      "notes": "Room 402 at 10:00 AM. Bring scientific calculator and student ID.",
+      "completedAt": null,
+      "createdAt": "2026-11-12T18:03:47.382Z",
+      "updatedAt": "2026-11-12T18:03:47.382Z"
+    },
+    {
+      "id": "5d43cfda-f14f-446f-9ab3-b6a38cf2d574",
+      "userId": "bd89c349-6fa9-4988-b411-67e9e7a7bfe7",
+      "title": "Software Engineering Project Presentation",
+      "description": "Prepare 10-minute slide deck with live demo of the web app architecture.",
+      "startDate": "2026-11-12T18:03:47.382Z",
+      "deadline": "2026-11-18T18:03:47.382Z",
+      "priority": "medium",
+      "category": "presentation",
+      "status": "pending",
+      "reminder": "1_day",
+      "recurring": "none",
+      "subtasks": [
+        {
+          "id": "09e3eb00-df4c-4681-accf-8eba3907138d",
+          "title": "Design slides in Google Slides",
+          "completed": false
+        },
+        {
+          "id": "6b902e55-9247-4b7a-9988-8ac282dbc1f7",
+          "title": "Rehearse speech with team members",
+          "completed": false
+        }
+      ],
+      "notes": "Each member speaks for 2.5 minutes. Dress code: Semi-formal.",
+      "completedAt": null,
+      "createdAt": "2026-11-12T18:03:47.382Z",
+      "updatedAt": "2026-11-12T18:03:47.382Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "c3b3f2bb-151f-436b-8874-8f741a520c97",
+      "userId": "55f701e1-4749-42bd-b771-7c5d685ac343",
+      "taskId": null,
+      "title": "🎓 Welcome to UniTask!",
+      "message": "Your personal university deadline and academic task management hub is ready.",
+      "type": "system",
+      "read": false,
+      "createdAt": "2026-11-12T17:59:20.983Z"
+    },
+    {
+      "id": "8900313c-b954-42a7-8458-07dde07b3d82",
+      "userId": "13c9b691-fdd8-4f14-a89a-90598031902e",
+      "taskId": null,
+      "title": "🎓 Welcome to UniTask!",
+      "message": "Your personal university deadline and academic task management hub is ready.",
+      "type": "system",
+      "read": false,
+      "createdAt": "2026-11-12T17:59:46.197Z"
+    },
+    {
+      "id": "88ac6c7c-3300-435e-bbf4-8d36afc88ce2",
+      "userId": "bd89c349-6fa9-4988-b411-67e9e7a7bfe7",
+      "taskId": null,
+      "title": "🎓 Welcome to UniTask!",
+      "message": "Your personal university deadline and academic task management hub is ready.",
+      "type": "system",
+      "read": false,
+      "createdAt": "2026-11-12T18:03:47.382Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "1cd101ab-636b-4d7d-b3cd-772edde6bc86",
+      "userId": "55f701e1-4749-42bd-b771-7c5d685ac343",
+      "action": "PROFILE_UPDATED",
+      "details": "Updated student profile information",
+      "createdAt": "2026-11-12T17:59:59.948Z"
+    },
+    {
+      "id": "57d5d852-2c8a-450f-bad5-d427ed873199",
+      "userId": "13c9b691-fdd8-4f14-a89a-90598031902e",
+      "action": "TASK_CREATED",
+      "details": "Added new presentation: \"BUET EEE Circuit Analysis Project\"",
+      "createdAt": "2026-11-12T17:59:46.231Z"
+    }
+  ]
+}
